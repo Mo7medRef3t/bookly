@@ -1,8 +1,8 @@
-import 'package:bookly/features/home/presentation/views/widgets/best_seller_list_view_item.dart';
+import 'package:bookly/features/home/presentation/views/widgets/newest_books_list_view_item.dart';
 import 'package:flutter/material.dart';
 
-class BestSellerListView extends StatelessWidget {
-  const BestSellerListView({super.key});
+class NewestBooksListView extends StatelessWidget {
+  const NewestBooksListView({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -11,7 +11,7 @@ class BestSellerListView extends StatelessWidget {
       shrinkWrap: true,
       itemCount: 10,
       itemBuilder: (context, index) {
-        return const BestSellerListViewItem();
+        return const NewestBooksListViewItem();
       },
     );
   }

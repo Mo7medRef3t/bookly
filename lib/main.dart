@@ -25,12 +25,3 @@ class Bookly extends StatelessWidget {
     );
   }
 }
-
-
-
-// return GetMaterialApp(
-//         theme: ThemeData.dark().copyWith(scaffoldBackgroundColor: KMainColor,
-//         textTheme: GoogleFonts.montserratTextTheme(ThemeData.dark().textTheme),
-//         ),
-//         home: const SplashView()
-//         );

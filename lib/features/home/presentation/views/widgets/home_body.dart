@@ -1,7 +1,7 @@
 import 'package:bookly/core/utils/styles.dart';
 import 'package:bookly/core/widgets/space_widget.dart';
 import 'package:flutter/material.dart';
-import 'best_seller_list_view.dart';
+import 'newest_books_list_view.dart';
 import 'custom_app_bar.dart';
 import 'feature_books_list_view.dart';
 
@@ -24,12 +24,12 @@ class HomeBody extends StatelessWidget {
                 FeatureBooksListView(),
                 VerticalSpace(2),
                 Text(
-                  "Best Seller",
+                  "Newest Books",
                   style: Styles.textStyle18,
                 ),
               ])),
           SliverToBoxAdapter(
-            child: BestSellerListView(),
+            child: NewestBooksListView(),
           )
         ],
       ),
