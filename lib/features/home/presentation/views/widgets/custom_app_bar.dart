@@ -1,6 +1,7 @@
 import 'package:bookly/core/utils/assets.dart';
 import 'package:bookly/core/utils/size_config.dart';
 import 'package:flutter/material.dart';
+
 class CustomAppBar extends StatelessWidget {
   const CustomAppBar({
     super.key,
@@ -9,7 +10,7 @@ class CustomAppBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.all(SizeConfig.defaultSize! * 3),
+      padding: EdgeInsets.only(top: SizeConfig.defaultSize! * 3),
       child: Row(
         children: [
           Image.asset(
