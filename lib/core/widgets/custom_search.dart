@@ -12,10 +12,10 @@ class CustomSearch extends StatelessWidget {
             height: 50,
             width: SizeConfig.screenWidth,
             child: TextFormField(
-              style: const TextStyle(color: Colors.black,fontSize: 18),
+              style: const TextStyle(color: Colors.black, fontSize: 18),
               decoration: InputDecoration(
                 hintText: "Search",
-                hintStyle: const TextStyle(fontSize: 18,color: Colors.grey),
+                hintStyle: const TextStyle(fontSize: 18, color: Colors.grey),
                 fillColor: Colors.white,
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(15),
@@ -23,8 +23,8 @@ class CustomSearch extends StatelessWidget {
                 filled: true,
                 suffixIcon: IconButton(
                     onPressed: () {},
-                    icon:
-                        Icon(Icons.search,color: Colors.grey, size: SizeConfig.defaultSize! * 3)),
+                    icon: Icon(Icons.search,
+                        color: Colors.grey, size: SizeConfig.defaultSize! * 3)),
               ),
             )));
   }

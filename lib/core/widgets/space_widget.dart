@@ -2,7 +2,7 @@ import 'package:bookly/core/utils/size_config.dart';
 import 'package:flutter/material.dart';
 
 class HorizantalSpace extends StatelessWidget {
-  const HorizantalSpace( this.value, {super.key});
+  const HorizantalSpace(this.value, {super.key});
   final double? value;
   @override
   Widget build(BuildContext context) {

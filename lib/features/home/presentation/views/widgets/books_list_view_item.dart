@@ -7,8 +7,8 @@ import 'package:bookly/features/home/presentation/views/widgets/custom_image.dar
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
-class ResultListViewItem extends StatelessWidget {
-  const ResultListViewItem({super.key});
+class BooksListViewItem extends StatelessWidget {
+  const BooksListViewItem({super.key});
 
   @override
   Widget build(BuildContext context) {

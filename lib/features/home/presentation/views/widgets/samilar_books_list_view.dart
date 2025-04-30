@@ -14,7 +14,7 @@ class SamilarBooksListView extends StatelessWidget {
         itemCount: 5,
         itemBuilder: (context, index) {
           return const Padding(
-            padding: EdgeInsets.symmetric(horizontal: 8,vertical: 10),
+            padding: EdgeInsets.symmetric(horizontal: 8, vertical: 10),
             child: CustomImage(),
           );
         },
