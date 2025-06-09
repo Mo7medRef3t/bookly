@@ -35,9 +35,7 @@ class ServerFailure extends Failures {
         } else {
           return ServerFailure("Unexpected Error, please try again!");
         }
-      default:
-        return ServerFailure("Unexpected Dio Error: ${dioException.message}");
-    }
+      }
   }
 
   factory ServerFailure.fromResponse(int statusCode, dynamic response) {

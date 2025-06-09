@@ -15,13 +15,14 @@ class HomeBody extends StatelessWidget {
         horizontal: 20,
       ),
       child: CustomScrollView(
+        physics: BouncingScrollPhysics(),
         slivers: [
           SliverToBoxAdapter(
               child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                 CustomAppBar(),
-                FeatureBooksListView(),
+                FeaturedBooksListView(),
                 VerticalSpace(2),
                 Text(
                   "Newest Books",
