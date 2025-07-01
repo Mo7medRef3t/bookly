@@ -3,6 +3,17 @@
 **Bookly** is a Flutter mobile app that helps users discover and preview free books using the Google Books API. It features smooth category browsing, detailed book pages, and a powerful search with debounce, all built on modern Flutter practices and the BLoC pattern.
 
 ---
+## 📱 Screenshots
+
+<p align="center">
+  <img src="screenshots/home_screen.png" width="200"/>
+  <img src="screenshots/search_screen.png" width="200"/>
+</p>
+<p align="center">
+  <img src="screenshots/book_details_screen.png" width="200"/>
+  <img src="screenshots/preview.png" width="200"/>
+</p>
+
 
 ## 🚀 Features
 
